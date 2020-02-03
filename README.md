@@ -1,2 +1,2 @@
 # CrescentRose
-三紫
+两紫
