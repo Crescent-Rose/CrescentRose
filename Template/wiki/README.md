@@ -2,8 +2,6 @@
 
 从data.in文件读入 格式如下
 
-$cnt$(场次)
-
 $n$(题目数量)
 
 $Task_1$ $Score/Rating_1$ $Solver_1$
