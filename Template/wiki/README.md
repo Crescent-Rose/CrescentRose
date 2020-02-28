@@ -14,18 +14,16 @@ $Task_n$ $Score/Rating_n$ $Solver_n$
 
 生成markdown表格 效果如下
 
-|    Solver    |             -             |             -             |             -             |             -             |
-| :----------: | :-----------------------: | :-----------------------: | :-----------------------: | :-----------------------: |
-|     Task     | <a href="#0B">CFxxxxA</a> | <a href="#0C">CFxxxxB</a> | <a href="#0D">CFxxxxC</a> | <a href="#0E">CFxxxxD</a> |
-| Score/Rating |           1200            |           1300            |           1600            |           1900            |
-|     Tag      |         自行填写          |                           |                           |                           |
+|    Solver    |               -                |               -                |               -                |               -                |
+| :----------: | :----------------------------: | :----------------------------: | :----------------------------: | :----------------------------: |
+|     Task     | <a href="#CFxxxxA">CFxxxxA</a> | <a href="#CFxxxxB">CFxxxxB</a> | <a href="#CFxxxxC">CFxxxxC</a> | <a href="#CFxxxxD">CFxxxxD</a> |
+| Score/Rating |              1200              |              1300              |              1600              |              1900              |
+|     Tag      |                                |                                |                                |                                |
 
-### <a name="0B">CFxxxxA</a>
+### <a name="CFxxxxA">CFxxxxA</a>
 
-自行填写
+### <a name="CFxxxxB">CFxxxxB</a>
 
-### <a name="0C">CFxxxxB</a>
+### <a name="CFxxxxC">CFxxxxC</a>
 
-### <a name="0D">CFxxxxC</a>
-
-### <a name="0E">CFxxxxD</a>
+### <a name="CFxxxxD">CFxxxxD</a>

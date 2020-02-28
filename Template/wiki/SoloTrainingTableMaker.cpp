@@ -16,12 +16,12 @@ void read()
         score.push_back(Score);
     }
 }
-string gen(int num, string s, string name)
+string gen(string s, string name)
 {
     string res = "<a " + s + "=";
     res += "\"";
     if (s == "href") res += "#";
-    res += to_string(cnt) + (char)('A' + num) + "\">";
+    res += name + "\">";
     res += name;
     res += "</a>";
     return res;
@@ -36,7 +36,7 @@ void write()
     cout << "|\n";
 
     cout << "| Task |";
-    for (int i = 0; i < n; i++) cout << " " << gen(i + 1, "href", task[i]) << " |";
+    for (int i = 0; i < n; i++) cout << " " << gen("href", task[i]) << " |";
     cout << '\n';
 
     cout << "| Score/Rating |";
@@ -48,7 +48,7 @@ void write()
     cout << '\n';
 
     for (int i = 0; i < n; i++)
-        cout << "\n### " + gen(i + 1, "name", task[i]) << '\n'; 
+        cout << "\n### " + gen("name", task[i]) << '\n'; 
 }
 int main()
 {
